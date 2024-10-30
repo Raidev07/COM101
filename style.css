@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    background-image:  linear-gradient(rgba(9,0,77,0.65), rgba(9,0,77,0.65)),url(img/background.png); 
+    background-position: center;
+    background-size: cover;
+    padding: 10px 8%;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.ccslogo{
+    width: 160px;
+    cursor: pointer;
+}
+nav ul{
+    list-style-type: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    background: #f5168d;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----- course -----*/
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+  }
+  h1{
+    font-size: 36px;
+    font-weight: 600;
+  }
+  
+  p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+  }
+
+/*----- activity -----*/
+.activity{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+  }
+  h1{
+    font-size: 36px;
+    font-weight: 600;
+  }
+  
+  p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+  }
+/*----- subject -----*/
+.subject{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+  }
+  h1{
+    font-size: 36px;
+    font-weight: 600;
+  }
+  
+  p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+  }
+/*----- documentation -----*/
+.documentation{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+  }
+  h1{
+    font-size: 36px;
+    font-weight: 600;
+  }
+  
+  p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+  }
+/*----- about -----*/
+.about{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+  }
+  h1{
+    font-size: 36px;
+    font-weight: 600;
+  }
+  
+  p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+  }
